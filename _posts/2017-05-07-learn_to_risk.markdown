@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "**Learn to Risk**"
-date:   2017-05-07 23:13:03 +0000
+title:  "Learn to Risk"
+date:   2017-05-07 19:13:03 -0400
 ---
 
 
