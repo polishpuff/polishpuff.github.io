@@ -1,12 +1,12 @@
 # Site settings
 title: Learn to Fail
-header-img: img/home-bg.png
+header-img: img/triangles.png
 email: karolina.kumiega@gmail.com
 copyright_name: polishpuff
 description: > # this means to ignore newlines until "baseurl:"
   ...and other lessons I'm still working on
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username:
 github_username:  polishpuff
 learn_profile: polishpuff
 email_username: karolina.kumiega@gmail.com
