@@ -48,7 +48,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: white;
+  border-color: #C0C0C0;
 }
 .navbar-custom {
   background: white;
@@ -177,6 +177,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+  color: #C0C0C0;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -197,6 +198,7 @@ hr.small {
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
+  color: #C0C0C0;
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
