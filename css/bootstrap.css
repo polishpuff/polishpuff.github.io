@@ -167,7 +167,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
-  border: 1px solid #3c6478;
+  border: 1px solid #fff;
 }
 legend {
   padding: 0;
