@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Did I break my blog?"
-date:   2017-06-17 01:11:11 +0000
+date:   2017-06-16 21:11:12 -0400
 ---
 
 
@@ -15,4 +15,8 @@ The other night I finished the CSS section of the curriculum so I thought, *"wel
 
 I did some research on Jekyll and decided to start with changing the header pics and the font color. NO HARM THERE RIGHT?
 
-Oops...
+------
+
+OK, wrote that post as a test but it still works to post! For some reason, it no longer works to update my settings from learn.co. But that's OK, I can do it from the code. 
+
+Woo! Can't wait to dig into the Jekyll code a little more this weekend!
