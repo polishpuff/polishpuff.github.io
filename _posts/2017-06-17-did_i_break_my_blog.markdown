@@ -60,7 +60,7 @@ But this is one of the files the [FAQ was pretty clear about not modifying](http
 
 This piece was a challenge because I couldn't decide which font color I wanted to use and because the Learn-GitHub connection is not instant. I didn't realize that until the end; I kept going back to the code and trying to figure out where I might have needed to add additional color elements.
 
-The [Jekyll directory structure](http://ekyllrb.com/docs/structure/) is pretty straight-forward. In the page.html and post.html files, two header classes are referred to: 
+The [Jekyll directory structure](http://jekyllrb.com/docs/structure/) is pretty straight-forward. In the page.html and post.html files, two header classes are referred to: 
 
 "site-heading" and "subheading"
 ```
