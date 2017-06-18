@@ -83,5 +83,5 @@ I cheated a bit by cmd-f'ing through the code at points to try to find all the s
 
 -------
 
-I'm so happy this first attempt worked out so well! I think I can continue to make improvements over the next few weeks.
+Changes to make in the weeks ahead: font-style and ensuring links open in new tabs. I'll keep updating with changes I want to add as I think of them.
 		
