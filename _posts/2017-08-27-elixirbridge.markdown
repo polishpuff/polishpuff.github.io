@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ElixirBridge"
-date:   2017-08-27 02:03:22 +0000
+date:   2017-08-26 22:03:23 -0400
 ---
 
 Two weekends ago I had an incredible opportunity to attend an all-day workshop at Casper focused on Elixir and Phoenix. The workshop was hosted by <a href="https://www.bridgetroll.org/">Bridge Troll</a>, an organization devoted to making programming accessible to more people including those who are under-represented in technology. 
