@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Class Methods in Ruby"
-date:       2017-10-22 13:14:20 +0000
+date:       2017-10-22 09:14:21 -0400
 permalink:  class_methods_in_ruby
 ---
 
