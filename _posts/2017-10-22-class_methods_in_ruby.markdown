@@ -65,7 +65,7 @@ def self.genre_count
 end
 ```
 
-This threw an ArgumentError, which continues to mystify me. I'm not sure where I'm missing arguements, but I think there are some additional issues with this code. For example, I don't refer to the array @@genres anywhere in the block, which I'm certain I have to do in order to get it working. However, I do appreciate having the chance to practice working with the ternary operator (some code ? if true do this thing : if false do this other thing). I like how elegant and brief it is. 
+This threw an ArgumentError, which continues to mystify me. I'm not sure where I'm missing arguments, but I think there are some additional issues with this code. For example, I don't refer to the array @@genres anywhere in the block, which I'm certain I have to do in order to get it working. However, I do appreciate having the chance to practice working with the ternary operator (some code ? if true do this thing : if false do this other thing). I like how elegant and brief it is. 
 
 Then I tried incrementing the count using += 1 but had issues there as well:
 
@@ -87,7 +87,7 @@ def self.genre_count
 end
 ```
 
-But both of those gave me: "NoMethodError: undefined method `+' for nil:NilClass". I did some research and realized that this kind of error is a problem when @@genre_count[genre] is nil instead of 0. There is a lot of [hepful advice](https://stackoverflow.com/questions/37715446/undefined-method-for-nilnilclass-ruby) about how to set to 0 to avoid this error but none of the advice I could find dealt explicitly with hashes, so it wasn't that relevant.
+But both of those gave me: "NoMethodError: undefined method `+' for nil:NilClass". I did some research and realized that this kind of error is a problem when @@genre_count[genre] is nil instead of 0. There is a lot of [helpful advice](https://stackoverflow.com/questions/37715446/undefined-method-for-nilnilclass-ruby) about how to set to 0 to avoid this error but none of the advice I could find dealt explicitly with hashes, so it wasn't that relevant.
 
 Some additional research pointed to using #group_by on the array to return distinct groups of genres. I haven't worked with #group_by before and I'm so pleased I discovered it. [This blog](http://gregpark.io/blog/ruby-group-by/) gives a rundown of useful ways to use #group_by. In this case I paired it with (:&itself), which is a method that groups itself into an array; more on that [here](http://www.rubydoc.info/github/rubyworks/facets/Object%3Aitself). This also led me down a path of trying to learn more about the &: syntax, which I'm still having some trouble with. [This](http://www.brianstorti.com/understanding-ruby-idiom-map-with-symbol/) piece is particularly helpful although I don't understand closures or #to_proc as of yet.
 
